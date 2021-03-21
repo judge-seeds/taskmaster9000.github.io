@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TaskMaster9000</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="scripts/tasks.json"></script>
+        <script src="scripts/taskloader.js"></script>
+
+    </head>
+    <body onload="loadTasks()">
+        <!-- Basic structure -->
+        <div class="content">
+            <!-- Cards are inserted into theese tasklists using JS-->
+            <div class="tasklist">
+                <div class="heading">ToDo</div>
+                <div class="cards" id="todo"></div>
+            </div>
+
+            <div class="tasklist">
+                <div class="heading">In Progress</div>
+                <div class="cards" id="inprogress"></div>
+            </div>
+            
+            <div class="tasklist">
+                <div class="heading">Done</div>
+                <div class="cards" id="done"></div>
+            </div>
+
+        </div>
+    </body>
+</html>
